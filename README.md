@@ -4,21 +4,21 @@ This project implements a deep learning–based Driver Safety Monitoring System 
 
 Features
 
-.Real-time driver monitoring using webcam
+-Real-time driver monitoring using webcam
 
-.Eye closure detection for drowsiness analysis
+-Eye closure detection for drowsiness analysis
 
-.Yawn detection using facial features
+-Yawn detection using facial features
 
-.Driver distraction detection
+-Driver distraction detection
 
-.Deep Learning–based classification using CNN
+-Deep Learning–based classification using CNN
 
-.Real-time alert system for unsafe behavior
+-Real-time alert system for unsafe behavior
 
-.Separate training modules for each detection model
+-Separate training modules for each detection model
 
-.Trained models saved in .h5 format
+-Trained models saved in .h5 format
 
 Project Structure
 
@@ -46,43 +46,70 @@ Distraction Dataset
 Used to detect distracted driving activities.
 
 Technologies Used
-.Python
-.OpenCV
-.TensorFlow
-.Keras
-.NumPy
-.CNN (Convolutional Neural Network)
+
+-Python
+
+-OpenCV
+
+-TensorFlow
+
+-Keras
+
+-NumPy
+
+-CNN (Convolutional Neural Network)
 
 Requirements
-.Python 3.10+
-.opencv-python
-.tensorflow
-.keras
-.numpy
+
+-Python 3.10+
+
+-opencv-python
+
+-tensorflow
+
+-keras
+
+-numpy
 
 Working Principle
+
 1.Webcam captures the driver’s face continuously.
+
 2.Facial features are detected using OpenCV.
+
 3.CNN models analyze:
-.Eye status
-.Yawning behavior
-.Driver distraction
+
+-Eye status
+
+-Yawning behavior
+
+-Driver distraction
+
 4.The system predicts whether the driver is attentive or drowsy.
+
 5.Alerts are generated when unsafe behavior is detected.
 
 Results
-.Real-time detection of drowsiness and distraction
-.Accurate classification using CNN models
-.Improves driver safety and accident prevention
-.Suitable for smart vehicle monitoring systems
+-Real-time detection of drowsiness and distraction
+
+-Accurate classification using CNN models
+
+-Improves driver safety and accident prevention
+
+-Suitable for smart vehicle monitoring systems
 
 Future Work
-.Add voice alarm integration
-.Mobile application support
-.Night vision detection
-.Cloud-based monitoring system
-.GPS emergency alert integration
-.Improve model accuracy with larger datasets
+-Add voice alarm integration
+
+-Mobile application support
+
+-Night vision detection
+
+-Cloud-based monitoring system
+
+-GPS emergency alert integration
+
+-Improve model accuracy with larger datasets
 
 
 Author
